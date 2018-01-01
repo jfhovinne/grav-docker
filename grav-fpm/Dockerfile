@@ -1,6 +1,6 @@
 FROM php:7-fpm
 WORKDIR /var/www/
-ENV GRAV_VERSION=1.0.10
+ENV GRAV_VERSION=1.3.10
 RUN apt-get update && \
     apt-get install -y unzip libjpeg62-turbo-dev libpng12-dev libfreetype6-dev zlib1g-dev && \
     apt-get clean && \
