@@ -2,5 +2,7 @@ version: "2"
 services:
   web:
     build: .
+    image: jfhovinne/grav:latest
     ports:
       - "80:80"
+    container_name: grav
